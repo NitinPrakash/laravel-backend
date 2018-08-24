@@ -10,16 +10,13 @@
               <div class="brand-logo text-center">
                 <img src="public/images/your-logo-here.png">
               </div>
-              <h6 class="font-weight-light text-center">Sign in to continue!</h6>
+              <h6 class="font-weight-light text-center">Reset Password!</h6>
               <form class="pt-3">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
-                </div>
-                <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
-                </div>
+                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username / Email">
+                </div>                
                 <div class="mt-3">
-                  <a class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" href="{{env('APP_URL')}}">SIGN IN</a>
+                  <a class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn" href="{{env('APP_URL')}}">SUBMIT</a>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
                   <!--<div class="form-check">
@@ -28,7 +25,7 @@
                       Keep me signed in
                     </label>
                   </div>-->
-                  <a href="{{env('APP_URL')}}/forgot" class="auth-link text-black pull-right">Forgot password?</a>
+                  <a href="{{env('APP_URL')}}/" class="auth-link text-black pull-right">Sign IN</a>
                 </div>
                 <!--<div class="mb-2">
                   <button type="button" class="btn btn-block btn-facebook auth-form-btn">
